@@ -1,6 +1,7 @@
 /* 1. Usa un bucle forof para recorrer todos los destinos del array. 
 2. Imprime en un console.log sus valores. */
 
+/* use for loops through the values of an iterable object */
 
 const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar'];
 
