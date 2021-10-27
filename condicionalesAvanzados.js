@@ -12,3 +12,16 @@ const alumns = [
     { name: 'Alfredo Blanco', T1: false, T2: false, T3: false },
     { name: 'Raquel Benito', T1: true, T2: true, T3: true }
 ];
+
+for (let aprobados of alumns) {
+
+    if (aprobados.T1 && aprobados.T2 == true) {
+        console.log(aprobados.name, aprobados[alumns.T1] = 'isApproved', aprobados.T2, aprobados[alumns.T3] = 'isApproved');
+    } else if (aprobados.T2 && aprobados.T3 == true) {
+
+        /*      console.log(aprobados.name); */
+        console.log(aprobados.name, aprobados[alumns.T1] = 'isApproved', aprobados.T2, aprobados[alumns.T3] = 'isApproved');
+    } else if (aprobados.T3 && aprobados.T1 == true) {
+        console.log(aprobados.name);
+    }
+}
